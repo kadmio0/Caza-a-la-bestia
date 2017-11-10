@@ -1,6 +1,6 @@
 # A sample Gemfile
 source "https://rubygems.org"
-
+group :development, :test do
 gem "sinatra"
 gem "cucumber"
 gem "rack-test"
@@ -9,3 +9,4 @@ gem "rspec"
 gem "simplecov"
 gem "simplecov-console"
 
+end
