@@ -1,6 +1,7 @@
 lenguaje: ruby
 
 before_install:
+  - gem install sinatra
   - gem install spec
   - gem install rspec
   - gem install cucumber
