@@ -2,10 +2,13 @@ lenguaje: ruby
 
 before_install:
   - gem install sinatra
-  - gem install spec
   - gem install rspec
   - gem install cucumber
   - gem install rack-test
+  - gem install webrat
+  - gem install rspec
+  - gem install simplecov
+  - gem install simplecov-console
 script:
   - cucumber
   - rspec
