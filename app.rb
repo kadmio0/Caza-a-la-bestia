@@ -6,6 +6,7 @@ get '/' do
   erb :menu 
 end
 
+
 get '/gameOption' do
   erb :opcionJuego 
 end
