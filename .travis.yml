@@ -1,4 +1,9 @@
 lenguaje: ruby
+
+before_install:
+  - gem install cucumber
+  - gem install rspec
+
 script:
   - cucumber
   - rspec
